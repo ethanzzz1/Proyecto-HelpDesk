@@ -1,6 +1,8 @@
 package ethan.henriquez.ejercicio2ethanzzz
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,6 +17,18 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+
+        val btn: Button = findViewById(R.id.btnRegistrarme)
+        btn.setOnClickListener {
+            val intent = Intent(this, activity_registrarse::class.java)
+            startActivity(intent)
+
+        }
+        val btnIng: Button = findViewById(R.id.btnIngresar)
+        btnIng.setOnClickListener{
+            val pantallaInicio = Intent(this, activity_inicio::class.java)
+            startActivity(pantallaInicio)
         }
     }
 }
