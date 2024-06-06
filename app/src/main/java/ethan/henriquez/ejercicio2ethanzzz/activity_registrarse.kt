@@ -1,6 +1,8 @@
 package ethan.henriquez.ejercicio2ethanzzz
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,6 +19,19 @@ class activity_registrarse : AppCompatActivity() {
             insets
         }
 
-        
+        val btnRegistrar1: Button = findViewById(R.id.btnRegistro)
+        btnRegistrar1.setOnClickListener {
+            val registro = Intent(this, activity_inicio::class.java)
+            startActivity(registro)
+
+        }
+        val btnRegistrar2: Button = findViewById(R.id.btnRegresarLogin)
+        btnRegistrar2.setOnClickListener {
+            val registro2 = Intent(this, MainActivity::class.java)
+            startActivity(registro2)
+
+        }
+
+
     }
 }
