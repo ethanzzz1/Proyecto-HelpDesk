@@ -16,8 +16,122 @@
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.209" />
+        app:layout_constraintVertical_bias="0.022" />
+
+    <EditText
+        android:id="@+id/txtNumTicket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="numeroTicket"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <EditText
+        android:id="@+id/txtTituloT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="tituloTicket"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="descripcion"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <EditText
+        android:id="@+id/txtAutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="autorTicket"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="249dp" />
+
+    <EditText
+        android:id="@+id/txtcorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="email"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <EditText
+        android:id="@+id/txtCreacionT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="creacionTicket"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <EditText
+        android:id="@+id/txtEstadoT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="estadoTicket"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <EditText
+        android:id="@+id/txtSolucion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="solucionTicket"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="193dp"
+        android:layout_height="48dp"
+        android:text="Enviar Ticket"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="557dp"
+        android:fontFamily="sans-serif-smallcaps" />
 </androidx.constraintlayout.widget.ConstraintLayout>
